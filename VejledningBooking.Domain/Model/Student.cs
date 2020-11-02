@@ -12,11 +12,12 @@ namespace VejledningBooking.Domain.Model
 
         public string Name { get; set; }
 
-        public List<Team> Teams { get; }
-        public List<Booking> Bookings { get; }
-        Student(Guid id)
+        //public List<Team> Teams { get; }
+        //public List<Booking> Bookings { get; }
+        Student(Guid id, string name)
         {
             Id = id;
+            Name = name;
 
         }
 
