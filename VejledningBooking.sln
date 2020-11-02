@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VejledningBooking.Domain", "VejledningBooking.Domain\VejledningBooking.Domain.csproj", "{0083EB50-60AC-4F2A-82DE-DACA397F1010}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VejledningBooking.Database", "VejledningBooking.Database\VejledningBooking.Database.csproj", "{171B16B3-F4B6-4083-BCCB-2D0AB7664BA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VejledningBooking.Application", "Vejlednings.Application\VejledningBooking.Application.csproj", "{37482771-6793-44EB-8245-725458A9BA00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VejledningBooking.Web", "VejledsningsBooking.Web\VejledningBooking.Web.csproj", "{E7DCA503-8AAC-4699-A2D4-8C3039AEB066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VejledningBooking.Query", "Vejlednings.Query\VejledningBooking.Query.csproj", "{BAFD3529-451A-4A89-AC66-29A10B61E6D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VejledningBooking.Database.Migrations", "VejledsningBooking.Database.Migrations\VejledningBooking.Database.Migrations.csproj", "{AC9957C5-0100-4ABD-A504-DC9C7F777B4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0083EB50-60AC-4F2A-82DE-DACA397F1010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0083EB50-60AC-4F2A-82DE-DACA397F1010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0083EB50-60AC-4F2A-82DE-DACA397F1010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0083EB50-60AC-4F2A-82DE-DACA397F1010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{171B16B3-F4B6-4083-BCCB-2D0AB7664BA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{171B16B3-F4B6-4083-BCCB-2D0AB7664BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{171B16B3-F4B6-4083-BCCB-2D0AB7664BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{171B16B3-F4B6-4083-BCCB-2D0AB7664BA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37482771-6793-44EB-8245-725458A9BA00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37482771-6793-44EB-8245-725458A9BA00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37482771-6793-44EB-8245-725458A9BA00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37482771-6793-44EB-8245-725458A9BA00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7DCA503-8AAC-4699-A2D4-8C3039AEB066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7DCA503-8AAC-4699-A2D4-8C3039AEB066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7DCA503-8AAC-4699-A2D4-8C3039AEB066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7DCA503-8AAC-4699-A2D4-8C3039AEB066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAFD3529-451A-4A89-AC66-29A10B61E6D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAFD3529-451A-4A89-AC66-29A10B61E6D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAFD3529-451A-4A89-AC66-29A10B61E6D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAFD3529-451A-4A89-AC66-29A10B61E6D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC9957C5-0100-4ABD-A504-DC9C7F777B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC9957C5-0100-4ABD-A504-DC9C7F777B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC9957C5-0100-4ABD-A504-DC9C7F777B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC9957C5-0100-4ABD-A504-DC9C7F777B4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DB3FF58-0D06-41E0-BEF6-2698BEF6F528}
+	EndGlobalSection
+EndGlobal
